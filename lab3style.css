@@ -1,0 +1,60 @@
+body{
+    background-color: beige;
+}
+.main-content{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#topbottom {
+    text-align: center;
+    background-color: #e29d9d;
+    color: rgb(170, 18, 155);
+    padding: 10px;
+    margin: 10px;
+    clear: both;
+
+}
+
+#navi-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #913f3f;
+}
+#navi-bar ul li{
+    float: left;
+}
+#navi-bar ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navi-bar ul li a:hover{
+    background-color: blueviolet;
+}
+
+.form-pane{
+  width: 30%;
+  padding: 20px;
+  margin: 15px;
+  float: left;
+  background-color: gray;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#rules{
+    float: right;
+    padding: 10px;
+    margin: 15px;
+    border: 5px solid black;
+    background-color: rgb(80, 152, 128);
+}
+#rules:hover{
+    background-color: chocolate;
+}
+#name:hover{
+    width: 70%;
+
+}
